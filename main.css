@@ -1,0 +1,51 @@
+.page_name {
+    font-size: 40px;
+    color: black;
+    font-family: verdana;
+}
+
+
+.my_name {
+    color: pink;
+    font-size: 20px;
+    font-family: helvetica;
+}
+
+.my_name strong {
+    color: palevioletred;
+}
+
+.about_me {
+    color: black;
+    font-family: verdana;
+}
+
+.my_occupation {
+    color: aquamarine;
+    font-size: 20px;
+    font-family: georgia;
+}
+
+.my_occupation strong {
+    color: teal
+}
+
+.my_hometown {
+    color: plum;
+    font-size: 20px;
+    font-family: impact;
+}
+
+.my_hometown strong {
+    color: purple;
+}
+
+.my_hobbies {
+    color: goldenrod;
+    font-size: 20px;
+    font-family: franklin;
+}
+
+.my_hobbies strong {
+    color: orange;
+}
