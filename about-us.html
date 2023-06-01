@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get Out Go Scotland</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Get Out Go Scotland | About Us</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 <body>
@@ -19,10 +19,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link frist" href="#">Destinations</a>
-            <a class="nav-link second" href="#">See</a>
-            <a class="nav-link third" href="#">Do</a>
-            <a class="nav-link third" href="#">Stay</a>
+            <a class="nav-link frist" href="destinations.html">Destinations</a>
+            <a class="nav-link second" href="see.html">See</a>
+            <a class="nav-link third" href="do.html">Do</a>
+            <a class="nav-link third" href="stay.html">Stay</a>
             <a class="nav-link third" href="about-us.html">About Us</a>
           </div>
         </div>
@@ -32,10 +32,10 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/get-out-go-scotland-image-2.jpg" class="d-block w-100" alt="...">
+          <img src="images/get-out-go-scotland-image-1.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="images/get-out-go-scotland-image-1.jpg" class="d-block w-100" alt="...">
+          <img src="images/get-out-go-scotland-image-2.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -48,37 +48,37 @@
       </button>
     </div>
     <div class="introduction">
-      <img src="images/get-out-go-scotland-logo.png" alt="...">
-      <h1>Ready to get out go?</h1>
-      <h2>We've got inspiration for any type of adventure. Near or far, in a day or over a week - just get out and go! </h2>
+      <h1>Hey, it's nice to meet you!</h1>
+      <h2>We are Rebecca and Ewan, and together we set up Get Out Go Scotland to share our top tips, inspiration and experiences. Our adventures have to fit around our work as we both work full-time, so we hope to inspire you to make the most of your days off!</h2>
     </div>
-    <br>
-    <div class="homepage-destinations">
-      <img src="images/get-out-go-scotland-edinburgh.jpg" alt="...">
-      <img src="images/get-out-go-scotland-glasgow.jpg" alt="...">
-      <img src="images/get-out-go-scotland-dundee.jpg" alt="...">
-      <img src="images/get-out-go-scotland-falkirk.jpg" alt="...">
-      <img src="images/get-out-go-scotland-stirling.jpg" alt="...">
+
+ <!--"ABOUT US CONTACT FORM"-->
+    <div class="container-form">
+      <form action="action_page.php">
+    
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" placeholder="Let us know what you want to talk about.." style="height:200px"></textarea>
+    
+        <input type="submit" onclick="alert('Your message has been sent!')" value="Submit">
+    
+      </form>
     </div>
-    <br>
-    <div class="row">
-      <div class="column">
-        <h2>Explore</h2>
-        <p>Near or far - explore with us!</p>
-      </div>
-      <div class="column">
-        <h2>Rest</h2>
-        <p>Looking for somewhere to rest your head? We've got <i>just</i> the place.</p>
-      </div>
-    </div>
-    <br>
     
     <footer class="footer">
       <ul class="social-icon">
-        <li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/getoutgoscotland">
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
             <ion-icon name="logo-facebook"></ion-icon>
           </a></li>
-        <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/getoutgo_scotland">
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
             <ion-icon name="logo-instagram"></ion-icon>
           </a></li>
       </ul>
@@ -87,7 +87,7 @@
         <li class="menu__item"><a class="menu-link" href="#">See</a></li>
         <li class="menu__item"><a class="menu-link" href="#">Do</a></li>
         <li class="menu__item"><a class="menu-link" href="#">Stay</a></li>
-        <li class="menu__item"><a class="menu-link" href="about-us.html">About Us</a></li>
+        <li class="menu__item"><a class="menu-link" href="#">About Us</a></li>
   
       </ul>
       <p>&copy;2023 Get Out Go Scotland | All Rights Reserved</p>
